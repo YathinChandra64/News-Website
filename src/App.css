@@ -1,0 +1,43 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+/* Light Mode Styles */
+.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.light-mode .navbar {
+  background-color: #ffffff;
+}
+
+.light-mode .card {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.light-mode .card-body {
+  border-color: #dee2e6;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.dark-mode .navbar {
+  background-color: #343a40;
+}
+
+.dark-mode .card {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.dark-mode .card-body {
+  border-color: #495057;
+}
